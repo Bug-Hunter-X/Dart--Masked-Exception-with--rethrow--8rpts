@@ -1,0 +1,3 @@
+# Dart: Masked Exception with `rethrow`
+
+This example demonstrates a potential issue when using `rethrow` after printing an exception in Dart. While `rethrow` correctly propagates the exception, the preceding `print` statement might obscure the original error's details, making debugging more difficult.  The solution shows how to better handle logging while preserving the original exception information.
